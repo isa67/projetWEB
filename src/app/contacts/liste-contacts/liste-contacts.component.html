@@ -1,0 +1,6 @@
+<p></p>
+<p>Gestion des Contacts</p>
+<div>Nbre de contacts : {{ nb$ | async }}</div>
+<div *ngFor="let c of liste$ | async">
+  {{ c.nom }}
+</div>
